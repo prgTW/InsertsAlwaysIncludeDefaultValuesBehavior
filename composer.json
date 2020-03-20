@@ -1,0 +1,24 @@
+{
+    "name": "prgtw/inserts-always-include-default-values-behavior",
+    "description": "Propel behavior for always including columns that have default values in INSERT queries",
+    "type": "propel-behavior",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Wójcik",
+            "email": "tomasz.prgtw.wojcik@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "prgTW\\Propel\\Behavior\\": "./src"
+        }
+    },
+    "extra": {
+        "name": "InsertsAlwaysIncludeDefaultValuesBehavior",
+        "class": "\\prgTW\\Propel\\Behavior\\InsertsAlwaysIncludeDefaultValuesBehavior"
+    }
+}
